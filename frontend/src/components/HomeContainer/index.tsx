@@ -7,7 +7,7 @@ HomeContainer.propTypes = {
 
 };
 
-function HomeContainer(props) {
+function HomeContainer() {
     return (
         <div className="home-container container-fluid row">
             <Navigation />
