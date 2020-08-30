@@ -5,7 +5,7 @@ IconNavigation.propTypes = {
     title  : PropTypes.string,
     handleIcon: PropTypes.object,
     handleActive: PropTypes.func,  
-    active: PropTypes.string,
+    active: PropTypes.bool,
 };
  
 IconNavigation.defaultProps = {
@@ -14,7 +14,7 @@ IconNavigation.defaultProps = {
     handleActive: null,  
 } 
 
-function IconNavigation(props) {
+function IconNavigation(props:any) {
  
     const { active, title, handleIcon, handleActive } = props;       
 

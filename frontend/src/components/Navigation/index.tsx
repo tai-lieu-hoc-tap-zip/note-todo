@@ -23,10 +23,9 @@ function Navigation() {
 
     const [ active, setActive] = useState([true, false, false, false, false]);  
 
-    function handleActive(index) { 
+    function handleActive(index:number) { 
         let newActive = [false, false, false, false, false];
-        newActive[index] = true;
-        console.log(newActive);
+        newActive[index] = true; 
         setActive(newActive); 
     }
 
