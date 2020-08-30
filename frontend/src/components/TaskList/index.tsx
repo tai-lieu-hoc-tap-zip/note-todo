@@ -4,7 +4,7 @@ TaskList.propTypes = {
 
 };
 
-function TaskList(props) {
+function TaskList() {
     return (
         <div className="home-container__task-list" >
 
