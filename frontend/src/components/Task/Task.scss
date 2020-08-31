@@ -1,0 +1,55 @@
+.task-container{  
+    // padding:10%;
+    // padding:25px;
+    display:flex;
+    // align-items: center;
+    // justify-content: center;
+    padding:20px;
+    &:hover{
+        border:3px solid #44e93f;
+        fill: #44e93f;;
+    }
+    &__left{
+        display:flex;
+        flex-direction: column; 
+        width:25%;   
+        justify-content: flex-start; 
+        &__image{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            fill: #4c504c;
+            &:hover {
+                fill: #44e93f;;
+            }
+        }
+        &__title{
+            position: absolute;
+            margin-top:95px;
+            padding:0;
+        }
+    }
+
+    &__right{
+        display:flex;
+        width:75%;
+        &__title{
+            font-size:20px;
+        }
+        &__time{
+            position: absolute; 
+            margin-top:70px;
+            font-size:15px;
+        }
+        &__notes{  
+            position: absolute; 
+            margin-top:95px;
+            list-style:none;
+            padding:0;
+            li{
+           
+            }
+        } 
+    }
+   
+}

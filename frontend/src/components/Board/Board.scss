@@ -1,0 +1,16 @@
+.home-container__task-list {
+    width: 70%; 
+    margin: 0 8%;
+}
+
+.flex-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    
+    &__item{ 
+        width: 90%; 
+        margin:2vw;
+    }
+}
