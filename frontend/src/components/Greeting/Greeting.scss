@@ -1,0 +1,25 @@
+.greeting{
+
+    $color: white;
+
+    width:100%; 
+    padding:2vw;
+    color: $color; 
+    border: 2px solid #44e93f;
+    border-radius:20px;
+    &__title{
+        color:#44e93f;
+    }
+    &__content{ 
+        &__number-task{
+            display: inline-block;
+            color:yellow; 
+            font-size: 1.5em;
+        }
+        &__number-task-pending{
+            display: inline-block;
+            color:red; 
+            font-size: 1.5em;
+        }
+    }
+}

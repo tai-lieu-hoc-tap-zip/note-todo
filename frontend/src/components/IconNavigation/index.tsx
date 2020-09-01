@@ -5,28 +5,29 @@ IconNavigation.propTypes = {
     title  : PropTypes.string,
     handleIcon: PropTypes.object,
     handleActive: PropTypes.func,  
-    active: PropTypes.bool,
+    active: PropTypes.bool.isRequired,
+    url: PropTypes.string,
 };
  
 IconNavigation.defaultProps = {
     active: false,
     handleIcon: null,
-    handleActive: null,  
+    handleActive: null,   
 } 
 
 function IconNavigation(props:any) {
  
-    const { active, title, handleIcon, handleActive } = props;       
+    const { active, title, handleIcon, handleActive, url } = props;       
 
     return (    
         <div>
             {!active ?
-                <a onClick={handleActive} href="#v" className='flex-navigation__item'> 
+                <a onClick={handleActive} href={url} className='flex-navigation__item'> 
                     {handleIcon}  
                     {title}
                 </a> 
                 :   
-                <a onClick={handleActive} href="#v" className='flex-navigation__item-active'> 
+                <a onClick={handleActive} href={url} className='flex-navigation__item-active'> 
                     {handleIcon}  
                     {title}
                 </a> 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from '../Navigation';
-import TaskList from '../TaskList';
+import Board from '../Board';
 import './HomeContainer.scss'
 
 HomeContainer.propTypes = {
@@ -11,7 +11,7 @@ function HomeContainer() {
     return (
         <div className="home-container container-fluid row">
             <Navigation />
-            <TaskList />
+            <Board />
         </div >
     );
 }
