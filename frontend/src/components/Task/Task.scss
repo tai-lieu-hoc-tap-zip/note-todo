@@ -1,3 +1,6 @@
+.text-remove{
+    text-decoration-line: line-through;
+}
 .task-container{  
     // padding:10%;
     // padding:25px;
@@ -12,15 +15,27 @@
     &__left{
         display:flex;
         flex-direction: column; 
-        width:25%;   
+        width:15%;   
         justify-content: flex-start; 
         &__image{
-            width: 60px;
-            height: 60px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
+            margin: 5px;
             fill: #4c504c;
             &:hover {
-                fill: #44e93f;;
+                fill: #44e93f;;  
+            }
+        }
+        &__image-active{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin: 5px;   
+            fill: #44e93f;; 
+            background-color: #44e93f;
+            &:hover {
+                fill: #4c504c;; 
             }
         }
         &__title{
@@ -32,7 +47,7 @@
 
     &__right{
         display:flex;
-        width:75%;
+        width:85%;
         &__title{
             font-size:20px;
         }
