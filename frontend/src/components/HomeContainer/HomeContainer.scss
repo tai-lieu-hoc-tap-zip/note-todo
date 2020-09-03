@@ -1,13 +1,13 @@
 .home-container {
-    margin: 0px;
-    padding: 0px;
-    height: 100vh;
-    &__navigation {
-        // display: inline-block;
-        background-color: #2c2929;
-    }
-    &__task-list {
-        // display: inline-block;
-        background-color: #2f2f2f;
-    }
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  &__navigation {
+    // display: inline-block;
+    background-color: #2c2929;
+  }
+  &__task-list {
+    // display: inline-block;
+    background-color: #2f2f2f;
+  }
 }

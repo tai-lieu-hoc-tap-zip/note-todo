@@ -1,26 +1,24 @@
-.daily-task{
-
-    $color: white; 
-    color: $color;  
-    &__title{
-        color:white;
+.daily-task {
+  $color: white;
+  color: $color;
+  &__title {
+    color: white;
+  }
+  &__list-task {
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    .task-container {
+      flex-grow: 0.05;
+      margin: 8px 0;
+      width: 32%;
+      height: 200px;
+      background-color: #241f1f;
+      border-radius: 10px;
     }
-    &__list-task{
-        display: flex;
-        flex-wrap: wrap;
-        direction:row;
-        justify-content: space-between;
-        align-items: center;
-        color:white;
-        .task-container{
-            flex-grow: 0.05;
-            margin: 8px 0; 
-            width:32%; 
-            height: 200px;
-            background-color:#241f1f; 
-            border-radius:10px; 
-        }
-        // padding:0 6vw;
-    }
-   
+    // padding:0 6vw;
+  }
 }
