@@ -4,6 +4,13 @@
   &__title {
     color: white;
   }
+  &__add{
+    float: right;
+    opacity: 0.3;
+    &:hover{
+      opacity: 1;
+    }
+  }
   &__list-task {
     display: flex;
     flex-wrap: wrap;

@@ -5,6 +5,7 @@ import './HomeContainer.scss';
 
 HomeContainer.propTypes = {};
 
+
 function HomeContainer() {
   return (
     <div className="home-container container-fluid row">

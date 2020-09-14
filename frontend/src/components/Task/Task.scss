@@ -42,14 +42,34 @@
       position: absolute;
       margin-top: 95px;
       padding: 0;
+      
     }
   }
 
   &__right {
     display: flex;
     width: 85%;
+    position: relative;
     &__title {
       font-size: 20px;
+    }
+    &__change{
+      float: right;
+      position: absolute;
+      bottom: 2px;
+      right: 2px;
+      &__del{
+        opacity: 0.2;
+        &:hover{
+          opacity: 1;
+        }
+      }
+      &__edit{
+        opacity: 0.2;
+        &:hover{
+          opacity: 1;
+        }
+      }
     }
     &__time {
       position: absolute;
